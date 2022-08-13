@@ -15,11 +15,6 @@ spec:
       containers:
         - name: server
           image: islandboy83/book3-server
-#          image: stephengrider/multi-client
-          resources:
-            limits:
-              memory: "128Mi"
-              cpu: "500m"
           ports:
             - containerPort: 5000
           env:

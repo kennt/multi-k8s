@@ -16,10 +16,6 @@ spec:
         - name: redis
           image: redis
 #          image: stephengrider/multi-client
-          resources:
-            limits:
-              memory: "128Mi"
-              cpu: "500m"
           ports:
             - containerPort: 6379
 
